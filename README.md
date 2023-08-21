@@ -1,0 +1,25 @@
+
+
+👋 Hello, fellow developers! I'm [Bhumit Gupta], a passionate technology enthusiast with a light foundation in various programming languages and IT concepts. I'm driven by my curiosity to explore and create innovative solutions that make a positive impact.
+
+🌐 Languages and Technologies:
+- Java: My go-to language for building robust and scalable applications.
+- SQL: know basic things of sql .
+- Python: While I'm still in the early stages of my Python journey, I'm excited to expand my skillset and leverage its versatility.
+- Information Technology: Topped my class in IT during 10th and +2, giving me a strong grasp of fundamental concepts and industry practices.
+
+📚 Education:
+- [Thapar Institute of engineering and technology]: Graduated with excellence in Information Technology. Consistently demonstrated a strong work ethic and a thirst for knowledge.
+
+🏆 Achievements:
+- Achieved the top rank in Information Technology during both my 10th and +2 classes.
+
+💡 Projects:
+- [Atm ]: Developed [bank atm from adding amount pin acc no etc]. Tech stack: [phython].
+- [railway ticket booking system]:  Tech stack: [Phython].
+
+🚀 Keep exploring, keep learning, and keep coding!
+<!---
+Bhumitg07205/Bhumitg07205 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
