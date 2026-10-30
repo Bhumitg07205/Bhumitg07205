@@ -119,9 +119,9 @@
     <text x="160" y="110" class="mono f-val"><tspan class="f-num">6+ Papers</tspan> (INSPECT 2025: 99.56% Acc, BRIGHT 63.17% mIoU)</text>
 
     <!-- Line 7: Industry Impact -->
-    <text x="0" y="132" class="mono f-key">Impact</text>
+    <text x="0" y="132" class="mono f-key">Deployments</text>
     <text x="120" y="132" class="mono f-dim">───</text>
-    <text x="160" y="132" class="mono f-val"><tspan class="f-hl">Mahindra:</tspan> RAG Chatbot (-30% Time) | <tspan class="f-hl">Needle AI:</tspan> CI/CD (-60%)</text>
+    <text x="160" y="132" class="mono f-val"><tspan class="f-hl">GeTin-Atithi</tspan> (Play Store v7) • <tspan class="f-hl">Pilot Parking</tspan> (YOLOv8 + TrOCR)</text>
 
     <!-- Line 8: Problem Solving -->
     <text x="0" y="154" class="mono f-key">Algorithms</text>
