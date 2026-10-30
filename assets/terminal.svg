@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 440" width="100%" height="440">
+  <defs>
+    <linearGradient id="term-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+
+    <linearGradient id="term-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7aa2f7" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#bb9af7" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#7dcfff" stop-opacity="0.6" />
+    </linearGradient>
+
+    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2ac3de" />
+      <stop offset="100%" stop-color="#7dcfff" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace; font-size: 13px; }
+    .mono-sm { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 11.5px; }
+    .bold { font-weight: 700; }
+    .f-key { fill: #7aa2f7; font-weight: 600; }
+    .f-val { fill: #c0caf5; }
+    .f-str { fill: #9ece6a; }
+    .f-num { fill: #ff9e64; }
+    .f-hl { fill: #7dcfff; font-weight: 600; }
+    .f-kw { fill: #bb9af7; font-weight: 600; }
+    .f-dim { fill: #565f89; }
+    .f-alert { fill: #f7768e; }
+  </style>
+
+  <!-- Window Container -->
+  <rect x="2" y="2" width="846" height="436" rx="12" fill="url(#term-bg)" stroke="#30363d" stroke-width="1.2" />
+  <rect x="2" y="2" width="846" height="436" rx="12" fill="none" stroke="url(#term-border)" stroke-width="1.2" />
+
+  <!-- Terminal Top Bar -->
+  <rect x="2" y="2" width="846" height="38" rx="12" fill="#161b22" />
+  <path d="M 2 40 L 848 40" stroke="#30363d" stroke-width="1" />
+
+  <!-- Window Controls -->
+  <circle cx="24" cy="20" r="6" fill="#f7768e" />
+  <circle cx="44" cy="20" r="6" fill="#e0af68" />
+  <circle cx="64" cy="20" r="6" fill="#9ece6a" />
+
+  <!-- Window Title -->
+  <text x="425" y="24" text-anchor="middle" class="mono-sm f-dim" font-weight="600">bhumit@quantum-nexus: ~ (zsh • neofetch)</text>
+  <text x="825" y="24" text-anchor="end" class="mono-sm" fill="#73daca">⚡ ACTIVE</text>
+
+  <!-- Command Prompt Line -->
+  <g transform="translate(30, 72)">
+    <text x="0" y="0" class="mono f-kw">❯</text>
+    <text x="16" y="0" class="mono f-hl">fetch-profile</text>
+    <text x="140" y="0" class="mono f-dim">--mode=dual-threat --tier=elite</text>
+  </g>
+
+  <!-- ASCII / Graphic Emblem Box (Left Column) -->
+  <g transform="translate(30, 96)">
+    <!-- Decorative ASCII / Tech Matrix -->
+    <rect x="0" y="10" width="160" height="270" rx="8" fill="#090d13" stroke="#24283b" stroke-width="1" />
+    
+    <text x="80" y="45" text-anchor="middle" class="mono" font-size="28" fill="#7aa2f7">⚡</text>
+    <text x="80" y="75" text-anchor="middle" class="mono-sm bold" fill="#7dcfff">BHUMIT GUPTA</text>
+    <text x="80" y="92" text-anchor="middle" class="mono-sm" font-size="10" fill="#565f89">DUAL-THREAT v4.2</text>
+
+    <!-- Mini Radar Specs inside emblem -->
+    <path d="M 20 115 L 140 115" stroke="#24283b" stroke-width="1" />
+    
+    <text x="20" y="135" class="mono-sm" font-size="10" fill="#bb9af7">FULL-STACK</text>
+    <rect x="20" y="142" width="120" height="6" rx="3" fill="#1f2335" />
+    <rect x="20" y="142" width="114" height="6" rx="3" fill="#bb9af7" />
+
+    <text x="20" y="167" class="mono-sm" font-size="10" fill="#7aa2f7">DEEP LEARNING</text>
+    <rect x="20" y="174" width="120" height="6" rx="3" fill="#1f2335" />
+    <rect x="20" y="174" width="112" height="6" rx="3" fill="#7aa2f7" />
+
+    <text x="20" y="199" class="mono-sm" font-size="10" fill="#7dcfff">QUANTUM ML</text>
+    <rect x="20" y="206" width="120" height="6" rx="3" fill="#1f2335" />
+    <rect x="20" y="206" width="102" height="6" rx="3" fill="#7dcfff" />
+
+    <text x="20" y="231" class="mono-sm" font-size="10" fill="#2ac3de">DSA / CS CORE</text>
+    <rect x="20" y="238" width="120" height="6" rx="3" fill="#1f2335" />
+    <rect x="20" y="238" width="108" height="6" rx="3" fill="#2ac3de" />
+
+    <text x="80" y="265" text-anchor="middle" class="mono-sm bold" font-size="10" fill="#73daca">STATUS: READY</text>
+  </g>
+
+  <!-- Right Column: Specs Output -->
+  <g transform="translate(215, 115)">
+    <!-- Line 1: Identity -->
+    <text x="0" y="0" class="mono f-key">Identity</text>
+    <text x="120" y="0" class="mono f-dim">───</text>
+    <text x="160" y="0" class="mono f-val">Bhumit Gupta <tspan class="f-dim">(@bhumitg07205)</tspan></text>
+
+    <!-- Line 2: Archetype -->
+    <text x="0" y="22" class="mono f-key">Archetype</text>
+    <text x="120" y="22" class="mono f-dim">───</text>
+    <text x="160" y="22" class="mono f-hl">Dual-Threat Engineer <tspan class="f-dim">(Web Architecture × Applied AI)</tspan></text>
+
+    <!-- Line 3: Web Stack -->
+    <text x="0" y="44" class="mono f-key">Web Engine</text>
+    <text x="120" y="44" class="mono f-dim">───</text>
+    <text x="160" y="44" class="mono f-val">React.js, Next.js, Node.js, Express, MongoDB, Tailwind, GSAP</text>
+
+    <!-- Line 4: Deep Tech Stack -->
+    <text x="0" y="66" class="mono f-key">AI/Research</text>
+    <text x="120" y="66" class="mono f-dim">───</text>
+    <text x="160" y="66" class="mono f-val">PyTorch, TensorFlow, OpenCV, <tspan fill="#bb9af7">PennyLane (Quantum ML)</tspan></text>
+
+    <!-- Line 5: Patents -->
+    <text x="0" y="88" class="mono f-key">Patents</text>
+    <text x="120" y="88" class="mono f-dim">───</text>
+    <text x="160" y="88" class="mono f-str">MAW-Gen: AI-Powered Robust Steganography <tspan class="f-dim">[Pending]</tspan></text>
+
+    <!-- Line 6: Publications -->
+    <text x="0" y="110" class="mono f-key">Publications</text>
+    <text x="120" y="110" class="mono f-dim">───</text>
+    <text x="160" y="110" class="mono f-val"><tspan class="f-num">6+ Papers</tspan> (INSPECT 2025: 99.56% Acc, BRIGHT 63.17% mIoU)</text>
+
+    <!-- Line 7: Industry Impact -->
+    <text x="0" y="132" class="mono f-key">Impact</text>
+    <text x="120" y="132" class="mono f-dim">───</text>
+    <text x="160" y="132" class="mono f-val"><tspan class="f-hl">Mahindra:</tspan> RAG Chatbot (-30% Time) | <tspan class="f-hl">Needle AI:</tspan> CI/CD (-60%)</text>
+
+    <!-- Line 8: Problem Solving -->
+    <text x="0" y="154" class="mono f-key">Algorithms</text>
+    <text x="120" y="154" class="mono f-dim">───</text>
+    <text x="160" y="154" class="mono f-num">200+ LeetCode <tspan class="f-dim">| Graphs, DP, Trees, Greedy, Systems</tspan></text>
+
+    <!-- Line 9: Cloud & DevOps -->
+    <text x="0" y="176" class="mono f-key">Cloud/DevOps</text>
+    <text x="120" y="176" class="mono f-dim">───</text>
+    <text x="160" y="176" class="mono f-val">Docker, GitHub Actions, AWS, RESTful Microservices, Linux</text>
+
+    <!-- Line 10: Education -->
+    <text x="0" y="198" class="mono f-key">Education</text>
+    <text x="120" y="198" class="mono f-dim">───</text>
+    <text x="160" y="198" class="mono f-val">B.E. Electronics &amp; Computer Engineering @ Thapar University</text>
+
+    <!-- Line 11: Current Focus -->
+    <text x="0" y="220" class="mono f-key">Current Goal</text>
+    <text x="120" y="220" class="mono f-dim">───</text>
+    <text x="160" y="220" class="mono" fill="#73daca">High-Scale Full-Stack Roles &amp; Deep-Tech AI Research 🚀</text>
+
+    <!-- Line 12: Contact Link -->
+    <text x="0" y="242" class="mono f-key">Portfolio</text>
+    <text x="120" y="242" class="mono f-dim">───</text>
+    <text x="160" y="242" class="mono" fill="#2ac3de">https://bhumitg07205.github.io/New-Portfolio/</text>
+  </g>
+
+  <!-- Bottom Terminal Status Bar (Neovim / Tmux Style) -->
+  <g transform="translate(2, 404)">
+    <rect x="0" y="0" width="846" height="34" rx="0" fill="#161b22" />
+    <path d="M 0 0 L 846 0" stroke="#30363d" stroke-width="1" />
+    
+    <!-- Status block 1 -->
+    <rect x="12" y="6" width="75" height="22" rx="4" fill="#7aa2f7" />
+    <text x="49" y="21" text-anchor="middle" class="mono-sm bold" fill="#0d1117">NORMAL</text>
+
+    <!-- Status block 2 -->
+    <text x="102" y="21" class="mono-sm f-dim">master*</text>
+    <text x="175" y="21" class="mono-sm f-dim">utf-8</text>
+    <text x="235" y="21" class="mono-sm f-kw">zsh</text>
+
+    <!-- Status block 3 -->
+    <text x="830" y="21" text-anchor="end" class="mono-sm" fill="#73daca">⚡ 100% HEALTHY • 0 ERRORS</text>
+  </g>
+</svg>
